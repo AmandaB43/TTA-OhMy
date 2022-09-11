@@ -29,15 +29,18 @@ nav {
 
 @keyframes top {
   from {}
-  to {}
+  to {
+    transform: rotate(45deg)translateY(20px)translateX(25px);
+  }
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {transition-duration: 2s;}
+  to {opacity: 0;}
 }
 
 @keyframes bottom {
   from {}
-  to {}
+  to {transform:rotate(-45deg)translateX(25px)translateY(-25px);
+  }
 }
